@@ -107,7 +107,7 @@ basta autorizar o e-mail de cada um na tabela `trainer_allowlist`.
    (Essa chave pode ficar pública: quem protege os dados são as regras do `schema.sql`.)
 
 ### 3. Publicar o app
-- **Netlify Drop**: acesse https://app.netlify.com/drop e arraste a pasta `app-personal`.
+- **Netlify Drop**: acesse https://app.netlify.com/drop e arraste a pasta do projeto (a raiz deste repositório).
   Você recebe um endereço `https://...netlify.app`.
 - Ou **GitHub Pages**, num repositório só do app.
 
@@ -166,6 +166,6 @@ No Android, Chrome → ⋮ → **Instalar app**.
 
 ## Testar no computador
 ```
-cd app-personal && python3 -m http.server 8000
+cd personal && python3 -m http.server 8000
 ```
 Abra http://localhost:8000. É preciso preencher o `config.js` antes.
