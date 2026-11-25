@@ -68,8 +68,7 @@ O app é o mesmo para todos; o que muda é a **marca**: nome, logo, cores, frase
 Tudo isso fica no arquivo `marca.js` e nos ícones (`icon-192.png`, `icon-512.png`, `apple-touch-icon.png`,
 `badge-96.png`), mais o `manifest.json`.
 
-**Marca atual:** L Castro Personal (@lcastropersonal), **provisória**: monograma "LC" e cores padrão,
-até chegarem o logo e as cores oficiais.
+**Marca atual:** Leo Castro Personal (@lcastropersonal), com o logo oficial e as cores definidas em `marca.js`.
 
 **Para criar ou trocar uma marca:**
 1. Abra `ferramentas/criar-marca.html` no navegador (no app publicado: `https://SEU-APP/ferramentas/criar-marca.html`).
