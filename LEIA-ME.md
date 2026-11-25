@@ -97,8 +97,8 @@ basta autorizar o e-mail de cada um na tabela `trainer_allowlist`.
    ```
 
 > **Já tinha rodado o `schema.sql` antes?** Rode também as atualizações que faltam, em ordem:
-> `supabase/migracao-v2.sql` até a `migracao-v8.sql` (ou rode o `schema.sql` inteiro de novo, que não apaga nada).
-> A v4 cria a pasta privada **fotos** no Storage do Supabase; a v6 adiciona periodização e dobras cutâneas; a v7, ferramentas por aluno, financeiro e agenda; a v8 deixa o banco rápido com muitos alunos (índices e regras de acesso otimizadas).
+> `supabase/migracao-v2.sql` até a `migracao-v9.sql` (ou rode o `schema.sql` inteiro de novo, que não apaga nada).
+> A v4 cria a pasta privada **fotos** no Storage do Supabase; a v6 adiciona periodização e dobras cutâneas; a v7, ferramentas por aluno, financeiro e agenda; a v8 deixa o banco rápido com muitos alunos (índices e regras de acesso otimizadas); a v9 dá as permissões das tabelas de forma explícita (projetos novos do Supabase mostram "permission denied for table" sem ela).
 
 ### 2. Ligar o app ao Supabase
 1. No Supabase, abra **Project Settings → API** (ou o botão **Connect**).
