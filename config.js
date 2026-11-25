@@ -7,8 +7,8 @@
 // VAPID_PUBLIC_KEY = chave PÚBLICA das notificações (gere em ferramentas/gerar-chaves.html).
 // Deixe vazio para usar o app sem notificações.
 window.APP_CONFIG = {
-  SUPABASE_URL: '',
-  SUPABASE_ANON_KEY: '',
+  SUPABASE_URL: 'https://vkwrwbllbiarfqlfnjhh.supabase.co',
+  SUPABASE_ANON_KEY: 'sb_publishable_v2QsHPlf2FgdMFkz_2rLVA_jfHHjdwC',
   VAPID_PUBLIC_KEY: '',
-  APP_NAME: 'Meu Personal'
+  APP_NAME: 'Leo Castro Personal'
 };
